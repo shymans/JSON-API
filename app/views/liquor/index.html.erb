@@ -1,0 +1,11 @@
+<% (1..10).each do |page| %>
+  <% parse_page(page) %>
+
+  <% @products['result'].each do |product| %>
+    <section>
+      <%= link_to product['name'], liquor_path(product['id']) %>
+      <%= number_to_currency(product['price_in_cents'] / 100.00) %>
+      <%= product['primary_category'] %>
+    </section>
+  <% end %>
+<% end %>

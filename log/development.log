@@ -1,0 +1,1596 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:12:37 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 24ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:13:50 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 21ms
+
+Errno::ENOENT (No such file or directory - hhtp://lcboapi.com/products?per_page=35):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:14:19 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - hhtp://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:14:35 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:16:55 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:17:02 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:18:39 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:18:41 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 24ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:19:09 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:19:17 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:24:18 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:27:46 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:27:48 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:04 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 14ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:06 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:07 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:51 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:52 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:28:53 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:30:29 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:6:in `initialize'
+  app/controllers/liquor_controller.rb:6:in `open'
+  app/controllers/liquor_controller.rb:6:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:30:29 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:6:in `initialize'
+  app/controllers/liquor_controller.rb:6:in `open'
+  app/controllers/liquor_controller.rb:6:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:30:30 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:6:in `initialize'
+  app/controllers/liquor_controller.rb:6:in `open'
+  app/controllers/liquor_controller.rb:6:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:33:20 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:33:21 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:33:21 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:33:22 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:33:23 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://www.lcboapi.com/products):
+  app/controllers/liquor_controller.rb:3:in `initialize'
+  app/controllers/liquor_controller.rb:3:in `open'
+  app/controllers/liquor_controller.rb:3:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:35:26 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (34.6ms)
+Completed 500 Internal Server Error in 526ms
+
+ActionView::Template::Error (undefined method `product_path' for #<#<Class:0x007f9133450328>:0x007f913345b688>):
+    2: 
+    3: <% @products['result'].each do |product| %>
+    4:   <section>
+    5:     <%= link_to product['name'], product_path(product['id']) %>
+    6:     <%= format_price product['price_in_cents'] %>
+    7:     <%= product['primary_category'] %>
+    8:   </section>
+  app/views/liquor/index.html.erb:5:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130803593980'
+  app/views/liquor/index.html.erb:3:in `each'
+  app/views/liquor/index.html.erb:3:in `_app_views_liquor_index_html_erb___2478885047719636720_70130803593980'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:35:27 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionView::Template::Error (undefined method `product_path' for #<#<Class:0x007f9133450328>:0x007f91362821d8>):
+    2: 
+    3: <% @products['result'].each do |product| %>
+    4:   <section>
+    5:     <%= link_to product['name'], product_path(product['id']) %>
+    6:     <%= format_price product['price_in_cents'] %>
+    7:     <%= product['primary_category'] %>
+    8:   </section>
+  app/views/liquor/index.html.erb:5:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130803593980'
+  app/views/liquor/index.html.erb:3:in `each'
+  app/views/liquor/index.html.erb:3:in `_app_views_liquor_index_html_erb___2478885047719636720_70130803593980'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:37:55 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (undefined method `format_price' for #<#<Class:0x007f9131aed480>:0x007f9131afcfe8>):
+    1: <% @products['result'].each do |product| %>
+    2:   <section>
+    3:     <%= link_to product['name'], liquor_path(product['id']) %>
+    4:     <%= format_price product['price_in_cents'] %>
+    5:     <%= product['primary_category'] %>
+    6:   </section>
+    7: <% end %>
+  app/views/liquor/index.html.erb:4:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130790407440'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130790407440'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:42:24 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (40.1ms)
+Completed 500 Internal Server Error in 996ms
+
+ActionView::Template::Error (undefined method `format_price' for #<#<Class:0x007f9131aed480>:0x007f913521ac50>):
+    1: <% @products['result'].each do |product| %>
+    2:   <section>
+    3:     <%= link_to product['name'], liquor_path(product['id']) %>
+    4:     <%= format_price product['price_in_cents'] %>
+    5:     <%= product['primary_category'] %>
+    6:   </section>
+    7: <% end %>
+  app/views/liquor/index.html.erb:4:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130790407440'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130790407440'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:45:40 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 723ms (Views: 551.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:45:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:45:40 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 157ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:45:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 152ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:46:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:53:41 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 2595ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:53:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:54:01 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 148ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/liquor_controller.rb:7:in `block in index'
+  app/controllers/liquor_controller.rb:5:in `each'
+  app/controllers/liquor_controller.rb:5:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:54:13 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1495ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:54:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 15:57:11 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1482ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 15:57:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:03:50 -0500
+Processing by LiquorController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/liquor_controller.rb:9:in `parse_page'
+  app/controllers/liquor_controller.rb:5:in `index'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:04:49 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 3122ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:04:52 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:08:10 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:16: syntax error, unexpected keyword_end, expecting end-of-input):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:08:27 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 1544ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:08:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:09:27 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 1465ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:09:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:15:54 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <% (1..10).each do |page| %>
+    2:   liquor.parse_page(page)
+    3: 
+    4:   <% @products['result'].each do |product| %>
+    5:     <section>
+    6:       <%= link_to product['name'], liquor_path(product['id']) %>
+    7:       <%= number_to_currency(product['price_in_cents'] / 100.00) %>
+  app/views/liquor/index.html.erb:4:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130803723760'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130803723760'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:16:36 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (30.5ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined local variable or method `liquor' for #<#<Class:0x007f913349bee0>:0x007f913806c2e8>):
+    1: <% (1..10).each do |page| %>
+    2:   <% liquor.parse_page(page) %>
+    3: 
+    4:   <% @products['result'].each do |product| %>
+    5:     <section>
+  app/views/liquor/index.html.erb:2:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130843498840'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130843498840'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:16:56 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `liquor_controller' for #<#<Class:0x007f913349bee0>:0x007f9136270640>):
+    1: <% (1..10).each do |page| %>
+    2:   <% liquor_controller.parse_page(page) %>
+    3: 
+    4:   <% @products['result'].each do |product| %>
+    5:     <section>
+  app/views/liquor/index.html.erb:2:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130827778200'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130827778200'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:17:06 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Liquor):
+    1: <% (1..10).each do |page| %>
+    2:   <% Liquor.parse_page(page) %>
+    3: 
+    4:   <% @products['result'].each do |product| %>
+    5:     <section>
+  app/views/liquor/index.html.erb:2:in `block in _app_views_liquor_index_html_erb___2478885047719636720_70130803448640'
+  app/views/liquor/index.html.erb:1:in `each'
+  app/views/liquor/index.html.erb:1:in `_app_views_liquor_index_html_erb___2478885047719636720_70130803448640'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:22:21 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (2683.7ms)
+Completed 200 OK in 2688ms (Views: 2687.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:22:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:23:40 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (100751.6ms)
+Completed 200 OK in 100757ms (Views: 100756.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:25:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:26:14 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (1864.2ms)
+Completed 200 OK in 1869ms (Views: 1868.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:26:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:35:17 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:11: syntax error, unexpected keyword_end, expecting ')'):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:35:48 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:11: syntax error, unexpected keyword_end, expecting ')'):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:35:48 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:11: syntax error, unexpected keyword_end, expecting ')'):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:35:49 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:11: syntax error, unexpected keyword_end, expecting ')'):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:35:49 -0500
+
+SyntaxError (/Users/mattmiller/Desktop/assignments/14/lcbo/app/controllers/liquor_controller.rb:11: syntax error, unexpected keyword_end, expecting ')'):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4437466721319770877__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 16:36:04 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (3296.8ms)
+Completed 200 OK in 3301ms (Views: 3300.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:36:08 -0500
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:36:10 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 74ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:36:10 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 68ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:37:04 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 73ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:37:05 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 71ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.6ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:37:06 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 68ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/liquor" for 127.0.0.1 at 2013-11-14 16:38:55 -0500
+Processing by LiquorController#index as HTML
+  Rendered liquor/index.html.erb within layouts/application (1521.6ms)
+Completed 200 OK in 1526ms (Views: 1525.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:38:57 -0500
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:40:12 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 71ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:40:12 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+Completed 500 Internal Server Error in 72ms
+
+TypeError (no implicit conversion of StringIO into String):
+  app/controllers/liquor_controller.rb:10:in `show'
+
+
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/mattmiller/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+  Rendered liquor/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 90ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:41:14 -0500
+
+
+Started GET "/liquor/300681" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+Processing by LiquorController#show as HTML
+  Parameters: {"id"=>"300681"}
+  Rendered liquor/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 467ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/liquor.css?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/liquor.js?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 16:42:34 -0500
